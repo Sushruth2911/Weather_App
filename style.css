@@ -1,0 +1,73 @@
+body 
+{
+    background-image: url(beach.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: hsl(0, 0%, 0%);
+
+}
+
+/* 
+
+this is how to use an image as a background image 
+how to position items to the center
+align all items to one side AND one below another directly
+font size and color
+
+*/
+
+.country
+{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+#submitbutton
+{
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#submitbutton:hover
+{
+    background-color: black;
+    color: bisque;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.card
+{
+    background: linear-gradient(180deg , hsl(231, 75%, 62%) , white , hsl(204, 66%, 63%));
+    margin-top: 40px;
+    width: 500px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 2px , 2px , 5px , hsl(0, 0%, 0% , 0.5);
+}
+
+.card p , .card h2{
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 30px;
+    background: none;
+}
+
+/* 
+
+linear gradient : gradient between colours ==> linear-gradient( A deg , Colour B , Colour C )
+
+*/
+
